@@ -81,6 +81,7 @@ def trade(
             f"Executed Qty: "
             f"{response.get('executedQty')}"
         )
+        print(f"Price: {response.get('price')}")
 
         print("\nSUCCESS")
 
